@@ -2,45 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 
-// Example 1
-/* const Card = (props) => {
-    return(
-        <div style={{ margin: '1em' }}>
-            <img width="75" src={props.avatar_url} alt="missing" />
-            <div style={{ display: 'inline-block', marginLeft: 10 }}>
-                <div style={{ fontSize: '1.2em', fontWeight: 'bold' }}>{props.name}</div>
-                <div>{props.company}</div>
-            </div>
-        </div>
-    )
-}
-let data = [
-    {
-        name:"Jitendra Kumar",
-        avatar_url:"https://avatars0.githubusercontent.com/u/10725499?s=400&v=4",
-        company:"NeoSoft"
-    },
-    {
-        name:"Jittu Kumar",
-        avatar_url:"https://avatars0.githubusercontent.com/u/10725499?s=400&v=4",
-        company:"Anomaly"
-    }
-]
-const CardList = (props) => {
-    return (
-        <div>
-            {props.cards.map(card => <Card {...card} />)}
-        </div>
-    )
-}
-
-ReactDOM.render(
-    <CardList cards = {data} />,
-    document.getElementById('root')
-) */
-
-// Example 2
-
 const Card = (props) => {
     return(
         <div style={{ margin: '1em' }}>
